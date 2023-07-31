@@ -71,8 +71,9 @@ group :test do
   gem "webdrivers"
 end
 
-gem 'better_errors', git: 'https://github.com/rlogwood/better_errors_ai_assist.git', :branch => 'ai_assist', group: :development
-gem "binding_of_caller", "~> 1.0", :group => :development
+# note: for this demo app we want to use the better_errors gem in production to show how it works
+gem 'better_errors', git: 'https://github.com/rlogwood/better_errors_ai_assist.git', :branch => 'ai_assist'
+gem "binding_of_caller", "~> 1.0"
 
 gem "sassc", "~> 2.4"
 gem "pycall", "~> 1.4"

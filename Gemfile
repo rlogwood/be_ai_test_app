@@ -71,8 +71,7 @@ group :test do
   gem "webdrivers"
 end
 
-#gem 'better_errors', git: 'https://github.com/rlogwood/better_errors_ai_assist.git', :branch => 'ai_assist', group: :development
-gem "better_errors", path: File.expand_path('../bug_fix/better_errors_ai_assist', __dir__), :group => :development
+gem 'better_errors', git: 'https://github.com/rlogwood/better_errors_ai_assist.git', :branch => 'ai_assist', group: :development
 gem "binding_of_caller", "~> 1.0", :group => :development
 
 gem "sassc", "~> 2.4"

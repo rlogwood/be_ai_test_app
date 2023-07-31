@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/rlogwood/better_errors_ai_assist.git
-  revision: 3439d02dbaa35bfa8e76bc9c4523b33a35ac0e48
-  branch: ai_assist
+  revision: c5007846b03a6b50ba807d144b14e2f92ddab33b
+  branch: ai_demo
   specs:
     better_errors (0.0.1dev)
       erubi (>= 1.0.0)

@@ -71,8 +71,8 @@ group :test do
   gem "webdrivers"
 end
 
-# note: for this demo app we want to use the better_errors gem in production to show how it works
-gem 'better_errors', git: 'https://github.com/rlogwood/better_errors_ai_assist.git', :branch => 'ai_assist'
+# note: for this demo app we want to use the better_errors gem in production so and must use the ai_demo branch
+gem 'better_errors', git: 'https://github.com/rlogwood/better_errors_ai_assist.git', :branch => 'ai_demo'
 gem "binding_of_caller", "~> 1.0"
 
 gem "sassc", "~> 2.4"

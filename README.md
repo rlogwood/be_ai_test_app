@@ -6,13 +6,9 @@ The demo uses [AI assist fork](https://github.com/rlogwood/better_errors_ai_assi
 
 On the landing page you can visit a link that will generate an error invoking the BetterErrors AI assist feature.
 
-To make the feature available, create an [Open AI API key](https://platform.openai.com/account/api-keys) and set the `OPENAI_API_KEY` environment variable in your shell to it's value.
+To make the feature available, create an [Open AI API key](https://platform.openai.com/account/api-keys).
 
->**NOTE**
-> If this environment variable is not defined the AI Assist feature will not be available.
-
-> **NOTE**
-> The demo app is configured to use the default `ai_assist` branch of the forked gem.
+When running the demo app, you will have to enter your Open AI API key into the configuration.
 
 <details>
 <summary>AI Assist Working</summary>

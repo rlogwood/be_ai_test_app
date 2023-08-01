@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rlogwood/better_errors_ai_assist.git
-  revision: f8c34b4d2e50568285f58a1276c0aa45aeaba8aa
+  revision: 3088514e85825dc19ce9a65ebb3162fadd7c369e
   branch: ai_demo
   specs:
     better_errors (0.0.1dev)

@@ -18,5 +18,10 @@ module BeTestApp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # Custom Configuration for demo
+    # flag meant to be used by better_errors, but gets defined too late
+    # can be referenced later as Rails.configuration.be_ai_assist_demo_bypass
+    config.be_ai_assist_demo_bypass = true
   end
 end

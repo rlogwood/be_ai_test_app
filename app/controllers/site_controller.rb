@@ -3,19 +3,18 @@ class SiteController < ApplicationController
   end
 
   def edit_config
-    @config = Config.new(ENV["OPENAI_API_KEY"])
+    @config = Config.new(session[:openai_api_key])
   end
 
   def update_config
     params = config_params
-    ENV["OPENAI_API_KEY"] = params[:open_api_key]
-    #Rails.logger.info("OpenAI API Key set to #{ENV["OPENAI_API_KEY"]}")
+    session[:openai_api_key] = params[:openai_api_key]
     redirect_to root_path
   end
 
-  private
+
   private
   def config_params
-    params.require(:config).permit(:open_api_key)
+    params.require(:config).permit(:openai_api_key)
   end
 end

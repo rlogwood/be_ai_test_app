@@ -1,11 +1,12 @@
 
 <div class="mx-auto md:w-2/3 w-full">
-  <h1 class="font-bold text-4xl">Better Errors with AI Assist </h1>
+  <h1 class="font-bold text-4xl">Better Errors Gem with AI Assist </h1>
 
     <div class="mt-5">
 
-      <%= link_to 'https://railshackathon.com/entries/69', id: "an-id",
-                  class: "text-success transition duration-150 ease-in-out hover:text-success-600 focus:text-success-600 active:text-success-700" do  %>
+      <%= link_to 'https://railshackathon.com/entries/69',
+                  class: "text-emerald-500 background-transparent font-bold  px-3 py-1 text-s outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" do  %>
+
         Rails 2023 Hackathon - Rails Quest Team-163 Entry 69
       <% end %>
 
@@ -30,11 +31,33 @@
 
       <tr>
         <td class="border-t-2">
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <button class="mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
             <%= link_to "Demo Better Errors AI Assist", articles_path, class: "text-2xl text-red-200" %>
           </button>
         </td>
       </tr>
       </tbody>
     </table>
+
+  <p class="mt-10">
+    <ul>
+      <li>
+      <%= link_to 'https://github.com/rlogwood/better_errors_ai_assist',
+                  class: "text-blue-500 background-transparent font-bold px-6 py-2 text-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" do  %>
+        <%= image_tag 'github-mark.svg', style: "height:20px; display: inline;", class: "mr-2" %>
+        better_errors gem with AI Assist
+      <% end %>
+      </li>
+
+      <li class="mt-2">
+      <%= link_to 'https://github.com/rlogwood/be_ai_test_app',
+                  class: "text-blue-500 background-transparent font-bold px-6 py-2 text-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" do  %>
+        <%= image_tag 'github-mark.svg', style: "height:20px; display: inline", class: "mr-2"  %>
+        This demo application
+      <% end %>
+      </li>
+    </ul>
+  </p>
+
+
 </div>

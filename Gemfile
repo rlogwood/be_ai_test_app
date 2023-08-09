@@ -62,11 +62,13 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-
-  gem 'better_errors', git: 'https://github.com/rlogwood/better_errors_ai_assist.git', :branch => 'ai_assist'
-  # gem "better_errors", path: File.expand_path('../bug_fix/better_errors_ai_assist', __dir__)
-  gem "binding_of_caller", "~> 1.0"
 end
+
+## for hackathon demo purposes only we are allowing this outside of production, do not do this
+## using a private repo for the demo version of this gem
+gem 'better_errors', git: 'git@github.com:rlogwood/better_errors_ai_assist_demo.git', :branch => 'ai_demo'
+#gem "better_errors", path: "/home/dever/Dropbox/dev/hackathon/demo/better_errors_ai_assist_demo"
+gem "binding_of_caller", "~> 1.0"
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
